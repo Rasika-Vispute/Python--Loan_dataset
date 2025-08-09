@@ -1,49 +1,60 @@
 # Python--Loan-dataset
+Loans dataset aims to identify variables which indicate if a person is likely to default, which can be used for identifying the risky loan applicants to avoid any financial loss to the company. 
 
- Topic - Loan Dataset
+##  Tools & Technologies Used
+`Python` · `Pandas` · `Numpy` · `Matplotlib` · `Seaborn` · `Scikit-learn`· `plotly`· `pyplot`· `statistics`· `scipy`
+`map function` · `Lambda function` · `crosstab`· `pivot_table`
+
  
- Introduction  - Loans dataset aims to identify variables which indicate if a person is likely to default, which can be used for identifying the risky loan applicants to avoid any financial loss to the company. 
+## Dataset Description 
+It contains the complete loan data for all loans issued through the time period 2007 to 2011.
+
+## Data Dictionary 
  
- Dataset Description - It contains the complete loan data for all loans issued through the time period 2007 to 2011.
+- **1.annual_inc** - The self-reported annual income provided by the borrower during registration.
  
- Data Dictionary 
+- **2.dti** - A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income.
  
- 1.annual_inc  - The self-reported annual income provided by the borrower during registration.
+- **3.emp_length** - Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
  
- 2.dti  - A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income.
+- **4.funded_amnt**  - The total amount committed to that loan at that point in time.
  
- 3.emp_length -Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.
+- **5.funded_amnt_inv** - The total amount committed by investors for that loan at that point in time.
  
- 4.funded_amnt   - The total amount committed to that loan at that point in time.
+- **6.grade** - LC assigned loan grade
  
- 5.funded_amnt_inv  -The total amount committed by investors for that loan at that point in time.
+- **7.id** - A unique LC assigned ID for the loan listing.
  
- 6.grade  - LC assigned loan grade
+- **8.installment** - The monthly payment owed by the borrower if the loan originates.
+
+- **9.int_rate** - Interest Rate on the loan
  
- 7.id -  A unique LC assigned ID for the loan listing.
+- **10.last_pymnt_amnt** - Last total payment amount received
  
- 8.installment   - The monthly payment owed by the borrower if the loan originates.
+- **11.last_pymnt_d** - Last month payment was received
  
- 9.int_rate  - Interest Rate on the loan
+- **12.loan_amnt** - The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
  
- 10.last_pymnt_amnt-Last total payment amount received
+- **13.loan_status** - Current status of the loan
  
- 11.last_pymnt_d  -Last month payment was received
+- **14.member_id** - A unique LC assigned Id for the borrower member.
  
- 12.loan_amnt  -The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
+- **15.purpose** - A category provided by the borrower for the loan request.
  
- 13.loan_status  - Current status of the loan
+- **16.term** - The number of payments on the loan. Values are in months and can be either 36 or 60.
  
- 14.member_id -A unique LC assigned Id for the borrower member.
+- **17.total_acc** - The total number of credit lines currently in the borrower's credit file
  
- 15.purpose - A category provided by the borrower for the loan request.
+- **18.total_pymnt** - Payments received to date for total amount funded
  
- 16.term  -The number of payments on the loan. Values are in months and can be either 36 or 60.
+- **19.total_pymnt_inv** - Payments received to date for portion of total amount funded by investors
  
- 17.total_acc -The total number of credit lines currently in the borrower's credit file
- 
- 18.total_pymnt -Payments received to date for total amount funded
- 
- 19.total_pymnt_inv -Payments received to date for portion of total amount funded by investors
- 
- 20.total_rec_int -Interest received to date
+- **20.total_rec_int** - Interest received to date
+
+##  Contributions
+Suggestions, improvements, and issues are welcome. Feel free to fork the repo or raise a pull request!
+
+## Contact
+**Rasika Vispute**  
+Email: rasikavispute32@gmail.com 
+LinkedIn: https://www.linkedin.com/in/rasikavispute/
